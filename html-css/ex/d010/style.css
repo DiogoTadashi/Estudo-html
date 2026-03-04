@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+*{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to top,rgb(1, 139, 1),rgb(21, 255, 0));
+}
+h1{
+    color: rgb(0,255,0);
+}
