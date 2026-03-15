@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, tr, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cnome {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Pereira</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Mariana Silva</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>João Santos</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Carla Oliveira</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Felipe Costa</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+</body>
+</html>
