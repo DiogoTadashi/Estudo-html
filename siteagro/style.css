@@ -1,0 +1,157 @@
+body{
+  background-color: rgb(150, 75, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo_header {
+  border-bottom:1px solid #FFF;
+  margin:0 auto;
+  max-width:50%;
+  padding:4em 0 2em;
+  text-align:center;
+}
+
+.conteudo_header h1 {
+  font-size: 75px;
+  margin:0 0 .5em;
+  text-transform:uppercase;
+}
+
+.conteudo_header h1 a {
+  color:#FFF;
+  text-decoration:none;
+}
+
+.conteudo_header p {
+  font-size: 35px;
+  color:#fff;
+  margin:0;
+  text-transform:uppercase;
+}
+
+.carrossel{
+    height:400px;
+    position:relative;
+    width:700px;
+    margin: auto;
+    text-align:left;
+  }
+.itens_carrossel{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+}
+.arrow{
+    border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 12px;
+}
+  
+.arrow-prev{
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+}
+   
+.arrow-next{
+      right:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+    }
+  
+.light{
+    color:white;
+}
+  
+@media (max-width: 480px) {
+        .arrow, .light .arrow {
+          background-size: 10px;
+          background-position: 10px 50%;
+        }
+      }
+[id^="item"] {
+      display: none;
+}
+  
+.item-1 {
+      z-index: 2;
+      opacity: 1;
+    background:url('https://i.imgur.com/rDV77DD.png');
+    background-size:cover;
+    margin: auto
+}
+.item-2{
+    background:url('https://i.imgur.com/7ZabNTu.png');
+     background-size:cover;
+}
+.item-3{
+    background:url('https://i.imgur.com/KqtUrDd.png');
+     background-size:cover;
+}
+.item-4{
+    background:url('https://i.imgur.com/wu6q7zm.png');
+     background-size:cover;
+}
+  
+*:target ~ .item-1 {
+      opacity: 0;
+}
+  
+#item-1:target ~ .item-1 {
+      opacity: 1;
+}
+  
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4 {
+      z-index: 3;
+      opacity: 1;
+}
+
+.container {
+  display: flex;
+}
+.max-linhas {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-width: 650px;
+}
+
+.container p{
+  font-size: 30px;
+}
+
+.descrevendo p {
+  font-size: 30px;
+}
+
+.descrevendo h1 {
+  font-size: 45px;
+}
+
+.descrevendo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    height: 500px;
+}
+
+.coluna {
+    padding: 2em 2em;
+}
+
+.Sobre {
+  background-color: rgb(51, 51, 51);
+  background-size: auto;
+  margin-top: 10px;
+  padding: 2em 2em;
+}

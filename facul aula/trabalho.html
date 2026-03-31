@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="aula-2">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="form">
+        <form>
+            <label class="nome" for="nome">Nome</label>
+            <input class="input" id="nome" type="text"maxlength="50" placeholder="Insira seu nome" required></input>
+        
+            <label class="sexo" >Sexo:</label>
+            <label class="sexo" for="masculino">Masculino</label>    
+            <input class="input" type="radio" id="masculino"name="sexo" value="masculino"></input>
+            <label class="sexo" for="feminino">Feminino</label>
+            <input class="input" type="radio" id="feminino"name="sexo" value="feminino"></input>
+            <br>
+                
+            <label class="telefone" for="telefone">Telefone</label>
+            <input class="input" id="telefone" type="text" maxlength="25" placeholder="Insira seu telefone" required></input>
+            <br> 
+
+            <label class="cep" for="cep">Cep</label>
+            <input class="input" id="cep" type="text" maxlength="9" placeholder="Insira seu cep" required></input>
+            <br> 
+            
+            <label class="endereco" for="rua">Endereço</label>
+            <input class="input" id="rua" type="text" maxlength="50" placeholder="Insira seu endereço" required></input>
+            <br> 
+            
+            <label class="bairro" for="bairro">Bairro</label>
+            <input class="input" id="bairro" type="text" maxlength="20" placeholder="Insira seu bairro" required></input>
+            <br> 
+            
+            <label class="cidade" for="cidade">Cidade</label>
+            <input class="input" id="cidade" type="text" maxlength="30" placeholder="Insira sua cidade" required></input>
+            <br><br><br><br><br>
+            <label class="estado" for="estado" >Estado:</label>
+            <select class="estado" id="estado">
+            <option value="AC">Acre (AC)</option>
+            <option value="AL">Alagoas (AL)</option>
+            <option value="AP">Amapá (AP)</option>
+            <option value="AM">Amazonas (AM)</option>
+            <option value="BA">Bahia (BA)</option>
+            <option value="CE">Ceará (CE)</option>
+            <option value="ES">Espírito Santo (ES)</option>
+            <option value="GO">Goiás (GO)</option>
+            <option value="MA">Maranhão (MA)</option>
+            <option value="MT">Mato Grosso (MT)</option>
+            <option value="MS">Mato Grosso do Sul (MS)</option>
+            <option value="MG">Minas Gerais (MG)</option>
+            <option value="PA">Pará (PA)</option>
+            <option value="PB">Paraíba (PB)</option>
+            <option value="PR">Parana (PR)</option>
+            <option value="PE">Pernambuco (PE)</option>
+            <option value="PI">Piauí (PI)</option>
+            <option value="RJ">Rio de Janeiro (RJ)</option>
+            <option value="RN">Rio Grande do Norte (RN)</option>
+            <option value="RS">Rio Grande do Sul (RS)</option>
+            <option value="RO">Rondônia (RO)</option>
+            <option value="RR">Roraima (RR)</option>
+            <option value="SC">Santa Catarina (SC)</option>
+            <option value="SP">São Paulo (SP)</option>
+            <option value="SE">Sergipe (SE)</option>
+            <option value="TO">Tocantins (TO)</option>
+            <option value="DF">Distrito Federal (DF)</option>
+
+        
+            </select>
+            <br><br><br>
+            <button>Salvar</button>
+            <button>Cancelar</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

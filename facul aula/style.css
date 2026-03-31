@@ -1,0 +1,109 @@
+body{
+    background-image: url("https://s2.glbimg.com/x3NQYdnAbmrShly1Ywb0A_Tzv_0=/e.glbimg.com/og/ed/f/original/2017/08/02/einstein.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#form {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+label.nome{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+label.telefone{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+label.endereco{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+label.bairro{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+label.cep{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+label.cidade{
+    height: 10px;
+    width: 70px;
+    margin-top: 13px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:5px;
+    color:white;
+}
+
+input.input {
+    height: 25px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+label.estado {
+    height: 25px;
+    margin-top: 14px;
+    text-align: right;
+    float: left;
+    margin-right: 5px;
+    color:white;
+}
+
+label.sexo{
+    height: 25px;
+    margin-top: 13px;
+    float: left;
+    margin-left: 5px;
+    color:white;
+}
+
+select.estado {
+    margin-top: 10px;
+    height: 28px;
+    border: 1px solid #000;
+    float: left;
+}
